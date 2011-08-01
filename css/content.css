@@ -1,0 +1,249 @@
+/*
+  The content css rules
+*/
+
+/* homepage */
+#teaser {
+    padding-bottom: 3em;
+  }
+  #call-to-action{
+      font-size:1.5em;
+    }
+  #call-to-action h2 {
+    padding: 1.5em 0.5em 1.5em 0;
+  }
+  #call-to-action h2 .solutions,
+  #call-to-action h2 .proximite {
+      line-height: 1.2em;
+      display: block;
+      font-size: 2.5em;
+    }
+  #call-to-action h2 .proximite {
+      font-weight: bold;
+      text-align:right;
+      font-size:3em;
+    }
+  #call-to-action p {
+    text-align: center;
+  }
+
+#see-more {
+  color: #121212;
+  border-top:3px solid #35a747;
+  border-bottom: 1px solid #1C311E;
+  background-color: #36a846;
+  position:relative;
+  background-image: linear-gradient(top, #9be68b, #a5e78d 1px, #36a846 10px, #36a846 98%, #2C6A2B);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#9be68b), color-stop(0.5%, #81d678), color-stop(2%, #36a846), color-stop(99%, #36a846), to(#2C6A2B));
+  background: -moz-linear-gradient(top, #9be68b, #a5e78d 1px, #36a846 10px, #36a846 98%, #2C6A2B);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#4ea848', endColorstr='#36a846');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#4ea848, endColorstr=#36a846)";
+  zoom:1;
+}
+/* gradiant from #ABEB8D to #36A944 rgb(54, 169, 68) */
+#see-more .container {
+  padding: 1.5em 0 2em 0;
+
+  background-image: -webkit-gradient(radial, center -50,0, center top, 700, from(rgba(138, 209, 105,20)), to(rgba(54, 169, 68,0)));
+  background-image: -moz-radial-gradient(center -50px 0deg, circle closest-corner, rgba(138, 209, 105,20) 0%, rgba(54, 169, 68,0) 700px);
+  background-image: radial-gradient(center -50 0deg, circle closest-corner, rgba(138, 209, 105, 20) 0%, rgba(54, 169, 68,0) 120%);
+}
+
+#see-more section {
+  padding-bottom: 3em;
+  text-align:justify;
+  }
+#see-more .bloc-title {
+  color: #fff;
+  font-size: 1.5em;
+  line-height:2.4em;
+  padding: 0 0 1em 60px;
+  background-position: left center;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  text-indent: -9999em;
+  }
+#see-more .bloc-title .subtitle {
+  display:block;
+  font-size:0.8em;
+  }
+#see-more #company-desc h1.bloc-title{
+  line-height:1.2em;
+  text-shadow: #333 -2px 2px 2px;
+  background-image: url(../images/title_carpehora.png)
+  }
+#see-more #last-posts h1.bloc-title {
+  text-shadow: #333 0px 2px 2px;
+  background-image: url(../images/title_publications.png)
+  }
+#see-more #last-coworkers h1.bloc-title {
+  text-shadow: #333 2px 2px 2px;
+  background-image: url(../images/title_reisdence.png)
+  }
+
+/* style links in page blocks (body) */
+#see-more article a,
+#see-more article a:active,
+#see-more article a:visited,
+#see-more a.webapp,
+#see-more a.webapp:active,
+#see-more a.webapp:visited {
+  color: #314633;
+  font-weight: bold;
+  text-decoration: none;
+}
+#see-more article a:hover,
+#see-more a.webapp:hover {
+  color:#EA4913;
+  line-height:1.2em;
+  text-decoration: underline;
+}
+#see-more section .meta-nav{
+  color: #314633;
+  font-size:0.9em;
+  }
+
+#see-more section .footer {
+  text-align:right;
+  font-size:1.2em;
+  position:absolute;
+  bottom: 1em;}
+#see-more section .footer .green-button {
+  float:right;
+  }
+
+#see-more #last-posts article{padding: 0 0 1em }
+#see-more #last-posts article h2 {padding-bottom: 0.5em;}
+#see-more #last-posts article h2 a {font-size: 1.2em;}
+#see-more #last-posts article p {font-style: italic}
+#see-more #last-coworkers .coworker{}
+#see-more #last-coworkers p.first{padding:0 0 1em 0;}
+#see-more #last-coworkers p.last{padding:1em 0 0 0;}
+
+
+/** Technical blog */
+
+#content {
+  margin-top: 20px;
+}
+
+#content a {
+  text-decoration: none;
+}
+
+#content a:hover {
+  text-decoration: underline;
+}
+
+
+/** categories */
+
+#sidebar {
+  background-color: #366b37;
+  color: #fff;
+  text-shadow: #0f330f -1px 1px 1px;
+  text-decoration: none;
+  -moz-bourder-radius: 25px 3px 3px;
+  -webkit-border-radius: 25px 3px 3px;
+  border-radius: 25px 3px 3px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#46773f), to(#3a5e3a));
+  background-image: -moz-linear-gradient(top, #46773f, #3a5e3a);
+  background-image: linear-gradient(top, #46773f, #3a5e3a);
+}
+
+#sidebar_content {
+  padding: 10px;
+}
+
+#sidebar_content h3 {
+  font-size: 1.7em;
+  margin-top: 8px;
+}
+
+#sidebar_content ul:not(.xoxo) {
+  margin-top: 5px;
+  list-style-type: disc;
+}
+
+#sidebar_content a {
+  color: white;
+}
+
+/** articles dates */
+
+#content article div.entry-date {
+  background-color: #4E734A;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  width: 50px;
+  padding: 1px 0;
+  font-family: Qlassik, verdana, helvetica, sans-serif;
+  font-size: 1.4em;
+  line-height:1em;
+}
+
+#content article div.entry-date span {
+  display: block;
+}
+
+/** article titles */
+#content article h2.entry-title {
+  font-family: Qlassik, verdana, helvetica, sans-serif;
+  font-size: 3em;
+  margin-bottom: 8px;
+}
+
+#content article h2.entry-title a {
+  color: #4E734A;
+}
+
+/** articles content */
+
+#content .entry-content p {
+  margin-bottom: 10px;
+}
+
+/** articles footers */
+#content article footer.entry-utility {
+  background: none;
+  border-bottom: 3px solid #4E734A;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 3px 0;
+}
+
+#content article footer.entry-utility span {
+  font-weight: bold;
+}
+
+/** comments */
+
+#content label {
+  display: inline-block;
+  width: 150px;
+}
+/* calendar */
+
+.oauth {
+  float: right;
+  display: inline-block;
+  height:     22px;
+  line-height: 22px;
+  padding: 0px 3px 0px  22px;
+  background: #fff 3px center no-repeat url(../images/t-resa-16x16.png);
+  border:     1px solid #cacaca;
+
+  -moz-box-shadow: 2px 2px 2px #888;
+  -webkit-box-shadow: 2px 2px 2px #888;
+  box-shadow: 2px 2px 2px #888;
+
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.ui-dialog .oauth {
+  float: none;
+  margin: auto;
+}

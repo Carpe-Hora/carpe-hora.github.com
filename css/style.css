@@ -1,5 +1,15 @@
-body{
-  width:960px;
-  margin:auto;
-  background:#eeeeee;
-}
+/*
+ Theme Name:     Carpe Hora
+ Theme URI:      http://www.carpe-hora.com/
+ Description:    Carpe Hora website theme
+ Author:         Carpe Hora
+ Author URI:     http://www.carpe-hora.com/
+ Template:       boilerplate
+ Version:        0.1.0
+*/
+
+@import url("960_24_col.css");
+@import url("common.css");
+@import url("header.css");
+@import url("content.css");
+@import url("footer.css");
