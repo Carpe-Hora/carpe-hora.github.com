@@ -1,0 +1,16 @@
+/*
+  defines the website fonts
+*/
+@font-face {
+  font-family: 'Qlassik';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Qlassik'), url("../_fonts/Qlassik_TB.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'QlassikBold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('QlassikBold'), url("../_fonts/QlassikBold_TB.ttf") format("truetype");
+}
+
