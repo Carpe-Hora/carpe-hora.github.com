@@ -1,0 +1,53 @@
+/*
+ Theme Name:     Carpe Hora
+ Theme URI:      http://www.carpe-hora.com/
+ Description:    Carpe Hora website theme
+ Author:         Carpe Hora
+ Author URI:     http://www.carpe-hora.com/
+ Template:       boilerplate
+ Version:        0.1.0
+*/
+@import url("960_24_col.css");
+
+body header h1 a {
+    text-indent: -999em;
+    background-image: url("../images/carpehora_logo.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+h2{
+  background:red;
+}
+
+body .content{
+  background:blue;
+}
+/** main container */
+
+#content {
+  margin-top: 20px;
+}
+
+#content a {
+  text-decoration: none;
+}
+
+#content a:hover {
+  text-decoration: underline;
+}
+/** titles */
+#content h2.title {
+  font-family: Qlassik, verdana, helvetica, sans-serif;
+  font-size: 3em;
+  margin-bottom: 8px;
+}
+
+#content h2.title a {
+  color: #4E734A;
+}
+
+/** articles content */
+
+#content .content p {
+  margin-bottom: 10px;
+}
