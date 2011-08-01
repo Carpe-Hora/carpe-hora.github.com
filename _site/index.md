@@ -2,11 +2,8 @@
 layout: default
 title: Carpe Hora Github Site
 ---
-<h2> Welcome !</h2>
-<p>
+# Welcome !
 This is the homepage for [Carpe Hora Github repositories](https://github.com/Carpe-Hora).
-</p>
-
 {% for post in site.posts limit:5 %}
 <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 {{ post.content }}
