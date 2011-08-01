@@ -15,14 +15,14 @@ body header h1 a {
     background-position: left center;
     background-repeat: no-repeat;
 }
-body article .title{
+body .title{
   background:red;
 }
 
-body article .content{
+body .content{
   background:blue;
 }
-/** Technical blog */
+/** main container */
 
 #content {
   margin-top: 20px;
@@ -35,32 +35,19 @@ body article .content{
 #content a:hover {
   text-decoration: underline;
 }
-/** article titles */
-#content article h2.entry-title {
+/** titles */
+#content h2.title {
   font-family: Qlassik, verdana, helvetica, sans-serif;
   font-size: 3em;
   margin-bottom: 8px;
 }
 
-#content article h2.entry-title a {
+#content h2.title a {
   color: #4E734A;
 }
 
 /** articles content */
 
-#content .entry-content p {
+#content .content p {
   margin-bottom: 10px;
-}
-
-/** articles footers */
-#content article footer.entry-utility {
-  background: none;
-  border-bottom: 3px solid #4E734A;
-  margin-top: 10px;
-  margin-bottom: 20px;
-  padding: 3px 0;
-}
-
-#content article footer.entry-utility span {
-  font-weight: bold;
 }
