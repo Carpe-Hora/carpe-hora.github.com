@@ -15,7 +15,7 @@ body header h1 a {
     background-position: left center;
     background-repeat: no-repeat;
 }
-body .title{
+h1{
   background:red;
 }
 
