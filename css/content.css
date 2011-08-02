@@ -99,6 +99,15 @@ button, input, select, textarea {
   margin-bottom: 10px;
 }
 
+#content .entry-content h1 {
+  margin-bottom: 10px;
+  font-size:1.3em;
+}
+#content .entry-content h1 {
+  margin-bottom: 8px;
+  font-size:1.1em;
+}
+
 /** articles footers */
 #content article footer.entry-utility {
   background: none;
