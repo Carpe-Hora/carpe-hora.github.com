@@ -1,7 +1,6 @@
 ---
 title: chCmsExposeRoutingPlugin
-layout : post
 link: http://carpe-hora.github.com/chCmsExposeRoutingPlugin
-git: git@github.com:Carpe-Hora/chCmsExposeRoutingPlugin.git
+git: git://github.com/Carpe-Hora/chCmsExposeRoutingPlugin.git
 ---
-Quick description
+Enable to expose your symfony routes to javascript

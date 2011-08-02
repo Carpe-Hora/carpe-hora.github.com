@@ -142,3 +142,11 @@ button, input, select, textarea {
   float: none;
   margin: auto;
 }
+
+/** articles adapter for markdown */
+
+pre {
+    padding: 15px;
+        white-space: pre-wrap;
+            word-wrap: break-word;
+}
