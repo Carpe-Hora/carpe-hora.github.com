@@ -2,13 +2,6 @@
   The content css rules
 */
 
-*{
-  border: 0 none;
-  font-size: 100%;
-  margin: 0;
-  padding: 0;
-  vertical-align: baseline;
-}
 
 #content {
   margin-top: 20px;
