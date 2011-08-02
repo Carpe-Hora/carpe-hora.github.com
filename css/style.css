@@ -1,130 +1,17 @@
 /*
- *this is tha main css for gh-pages
- *
- */
-@import url("960_24_col.css");
+ Theme Name:     Carpe Hora
+ Theme URI:      http://www.carpe-hora.com/
+ Description:    Carpe Hora website theme
+ Author:         Carpe Hora
+ Author URI:     http://www.carpe-hora.com/
+ Template:       boilerplate
+ Version:        0.1.0
+*/
+
 @import url("fonts.css");
-
-body {
-    font: 13px/1.231 sans-serif;
-}
-*{
-  font-size: 100%;
-  margin:0;
-  padding:0;
-}
-
-body header h1 a {
-    text-indent: -999em;
-    background-image: url("../images/carpehora_logo.png");
-    background-position: left center;
-    background-repeat: no-repeat;
-    border: none;
-    height: 180px;
-    width: 180px;
-    display: block;
-}
-
-h2,.repotitle a{
-  color:#4E734A;
-  text-shadow: -1px 1px 2px #CACACA;
-  font-weight: bold;
-  text-decoration: none;
-  font-size:1.1em;
-  font-family: Qlassik,verdana,helvetica,sans-serif;
-}
-
-.pagetitle{
-  color: #1A8D33;
-  margin-top:50px;
-  font-size: 2em;
-  font-family: Qlassik,verdana,helvetica,sans-serif;
-}
-
-code{
-  border: 1px solid gray;
-  margin:5px;
-  padding:15px;
-  display:block;
-}
-/** main container */
-
-#content {
-  margin-top: 20px;
-}
-
-#content a {
-  text-decoration: none;
-}
-
-#content a:hover {
-  text-decoration: underline;
-}
-
-/** articles content */
-
-#content .content p {
-  margin-bottom: 10px;
-}
-/** sidebar */
-#sidebar {
-    background-color: #366B37;
-    background-image: -moz-linear-gradient(center top , #46773F, #3A5E3A);
-    border-radius: 25px 3px 3px 3px;
-    color: #FFFFFF;
-    text-decoration: none;
-    text-shadow: -1px 1px 1px #0F330F;
-}
-#sidebar_content {
-    padding: 10px;
-}
-#sidebar_content h3 {
-    font-size: 1.7em;
-    margin-top: 8px;
-}
-#sidebar_content ul:not(.xoxo) {
-    list-style-type: disc;
-    margin-top: 5px;
-}
-#sidebar_content a {
-    color: white;
-}
-#content label {
-    display: inline-block;
-    width: 150px;
-}
-label, input[type="button"], input[type="submit"], input[type="image"], button {
-    cursor: pointer;
-}
-
-/** nav */
-body nav .menu {
-    height: 180px;
-}
-nav ul, nav li {
-    list-style: none outside none;
-    margin: 0;
-}
-ul, ol {
-    margin-left: 2em;
-}
-body nav .menu li {
-    display: inline-block;
-    font-size: 1.7em;
-    margin-top: 60px;
-    padding: 0 0.3em;
-}
-nav ul, nav li {
-    list-style: none outside none;
-    margin: 0;
-}
-body nav .menu li a, body nav .menu li a:active, body nav .menu li a:visited {
-    display: inline-block;
-    font-weight: bold;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-.green, .green a, .green a:active, .green a:visited, .green a:hover {
-    color: #1A8D33;
-    text-shadow: -1px 1px 2px #CACACA;
-}
+@import url("boilerplate/style.css");
+@import url("960_24_col.css");
+@import url("common.css");
+@import url("header.css");
+@import url("content.css");
+@import url("footer.css");

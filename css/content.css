@@ -1,0 +1,151 @@
+/*
+  The content css rules
+*/
+
+*{
+  border: 0 none;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+#content {
+  margin-top: 20px;
+}
+
+body, select, input, textarea {
+    color: #444444;
+}
+
+button, input, select, textarea {
+    font-family: sans-serif;
+    font-size: 100%;
+    margin: 0;
+    overflow: visible;
+    vertical-align: baseline;
+    width: auto;
+
+}
+
+#content a {
+  text-decoration: none;
+}
+
+#content a:hover {
+  text-decoration: underline;
+}
+
+
+/** categories */
+
+#sidebar {
+  background-color: #366b37;
+  color: #fff;
+  text-shadow: #0f330f -1px 1px 1px;
+  text-decoration: none;
+  -moz-bourder-radius: 25px 3px 3px;
+  -webkit-border-radius: 25px 3px 3px;
+  border-radius: 25px 3px 3px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#46773f), to(#3a5e3a));
+  background-image: -moz-linear-gradient(top, #46773f, #3a5e3a);
+  background-image: linear-gradient(top, #46773f, #3a5e3a);
+  margin-bottom:5px;
+}
+
+#sidebar_content {
+  padding: 10px;
+}
+
+#sidebar_content h3 {
+  font-size: 1.7em;
+  margin-top: 8px;
+}
+
+#sidebar_content ul:not(.xoxo) {
+  margin-top: 5px;
+  list-style-type: disc;
+}
+
+#sidebar_content a {
+  color: white;
+}
+
+/** articles dates */
+
+#content article div.entry-date {
+  background-color: #4E734A;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  width: 50px;
+  padding: 1px 0;
+  font-family: Qlassik, verdana, helvetica, sans-serif;
+  font-size: 1.4em;
+  line-height:1em;
+}
+
+#content article div.entry-date span {
+  display: block;
+}
+
+/** article titles */
+#content article h2.entry-title {
+  font-family: Qlassik, verdana, helvetica, sans-serif;
+  font-size: 3em;
+  margin-bottom: 8px;
+}
+
+#content article h2.entry-title a {
+  color: #4E734A;
+}
+
+/** articles content */
+
+#content .entry-content p {
+  margin-bottom: 10px;
+}
+
+/** articles footers */
+#content article footer.entry-utility {
+  background: none;
+  border-bottom: 3px solid #4E734A;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 3px 0;
+}
+
+#content article footer.entry-utility span {
+  font-weight: bold;
+}
+
+/** comments */
+
+#content label {
+  display: inline-block;
+  width: 150px;
+}
+/* calendar */
+
+.oauth {
+  float: right;
+  display: inline-block;
+  height:     22px;
+  line-height: 22px;
+  padding: 0px 3px 0px  22px;
+  background: #fff 3px center no-repeat url(../images/t-resa-16x16.png);
+  border:     1px solid #cacaca;
+
+  -moz-box-shadow: 2px 2px 2px #888;
+  -webkit-box-shadow: 2px 2px 2px #888;
+  box-shadow: 2px 2px 2px #888;
+
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.ui-dialog .oauth {
+  float: none;
+  margin: auto;
+}

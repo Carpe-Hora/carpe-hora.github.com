@@ -5,12 +5,12 @@
   font-family: 'Qlassik';
   font-style: normal;
   font-weight: normal;
-  src: local('Qlassik'), url("../_fonts/Qlassik_TB.ttf") format("truetype");
+  src: local('Qlassik'), url("../fonts/Qlassik_TB.ttf") format("truetype");
 }
 @font-face {
   font-family: 'QlassikBold';
   font-style: normal;
   font-weight: normal;
-  src: local('QlassikBold'), url("../_fonts/QlassikBold_TB.ttf") format("truetype");
+  src: local('QlassikBold'), url("../fonts/QlassikBold_TB.ttf") format("truetype");
 }
 
