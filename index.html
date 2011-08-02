@@ -1,14 +1,30 @@
 ---
-layout: default
+layout: listing
 title: Carpe Hora Publications
 date: 2011-08-02
 ---
 <h1 class="pagetitle">Welcome on {{ page.title }}!</h1>
 <p>This is the homepage for <a href="https://github.com/Carpe-Hora">Carpe Hora Github repositories</a></p>
+<br/>
+<br/>
 {% for post in site.posts limit:5 %}
-<div class="repo">
-  <h2 class="repotitle" ><a href="{{ post.link }}">{{ post.title }}</a></h2>
-  {{ post.content }}
-  <em>Ajouté le {{ post.date | date_to_long_string }}.</em>
-</div>
+ <article class="post type-post status-publish format-standard hentry category-technique tag-linux tag-lvm tag-ovh tag-recuse grid_18 technique">
+          <div class="entry-date grid_2">
+            <span class="entry-date-day">{{ post.date | date: "%d" }}</span>
+            <span class="entry-date-month">{{ post.date | date: "%b" }}</span>
+            <span class="entry-date-year">{{ post.date | date: "%Y" }}</span>
+          </div>
+
+          <div class="entry-body grid_16">
+            <h2 class="entry-title"><a href="http://">{{ post.title }}</a></h2>
+
+          <div class="entry-content">
+            {{ post.content }}
+          </div><!-- .entry-content -->
+
+          <footer class="entry-utility">
+            <span>Catégorie : </span> <a href="http://www.carpe-hora.com/category/technique/">Publication</a>
+          </footer><!-- .entry-utility -->
+          </div><!-- .entry-body -->
+  </article><!-- #post-## -->
 {% endfor %}
