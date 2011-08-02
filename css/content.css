@@ -99,13 +99,13 @@ button, input, select, textarea {
   margin-bottom: 10px;
 }
 
-#content .entry-content h1 {
+.entry-content h1 {
   margin-bottom: 10px;
   font-size:1.5em;
 }
-#content .entry-content h2 {
+.entry-content h2 {
   margin-bottom: 8px;
-  font-size:1.2em;
+  font-size:1.3em;
 }
 
 /** articles footers */
