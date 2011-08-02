@@ -148,7 +148,6 @@ button, input, select, textarea {
 pre {
   padding: 15px;
   white-space: pre-wrap;
-  word-wrap: break-word;
   overflow-x: auto;
   overflow-y: hidden;
   width: 100%;
