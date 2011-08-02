@@ -4,7 +4,12 @@
  */
 @import url("960_24_col.css");
 @import url("fonts.css");
+
+body {
+    font: 13px/1.231 sans-serif;
+}
 *{
+  font-size: 100%;
   margin:0;
   padding:0;
 }
@@ -20,7 +25,7 @@ body header h1 a {
     display: block;
 }
 
-.repotitle a{
+h2,.repotitle a{
   color:#4E734A;
   text-shadow: -1px 1px 2px #CACACA;
   font-weight: bold;
@@ -34,10 +39,6 @@ body header h1 a {
   margin-top:50px;
   font-size: 2em;
   font-family: Qlassik,verdana,helvetica,sans-serif;
-}
-
-.repo{
-  margin-left:35px;
 }
 
 code{
@@ -64,4 +65,66 @@ code{
 
 #content .content p {
   margin-bottom: 10px;
+}
+/** sidebar */
+#sidebar {
+    background-color: #366B37;
+    background-image: -moz-linear-gradient(center top , #46773F, #3A5E3A);
+    border-radius: 25px 3px 3px 3px;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-shadow: -1px 1px 1px #0F330F;
+}
+#sidebar_content {
+    padding: 10px;
+}
+#sidebar_content h3 {
+    font-size: 1.7em;
+    margin-top: 8px;
+}
+#sidebar_content ul:not(.xoxo) {
+    list-style-type: disc;
+    margin-top: 5px;
+}
+#sidebar_content a {
+    color: white;
+}
+#content label {
+    display: inline-block;
+    width: 150px;
+}
+label, input[type="button"], input[type="submit"], input[type="image"], button {
+    cursor: pointer;
+}
+
+/** nav */
+body nav .menu {
+    height: 180px;
+}
+nav ul, nav li {
+    list-style: none outside none;
+    margin: 0;
+}
+ul, ol {
+    margin-left: 2em;
+}
+body nav .menu li {
+    display: inline-block;
+    font-size: 1.7em;
+    margin-top: 60px;
+    padding: 0 0.3em;
+}
+nav ul, nav li {
+    list-style: none outside none;
+    margin: 0;
+}
+body nav .menu li a, body nav .menu li a:active, body nav .menu li a:visited {
+    display: inline-block;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.green, .green a, .green a:active, .green a:visited, .green a:hover {
+    color: #1A8D33;
+    text-shadow: -1px 1px 2px #CACACA;
 }
