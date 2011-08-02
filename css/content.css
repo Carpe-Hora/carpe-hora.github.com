@@ -146,7 +146,7 @@ button, input, select, textarea {
 /** articles adapter for markdown */
 
 pre {
-  white-space: pre-wrap;
+  white-space: pre;
   overflow-x: auto;
   overflow-y: hidden;
   width: 100%;
