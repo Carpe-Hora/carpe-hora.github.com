@@ -101,11 +101,12 @@ button, input, select, textarea {
 
 .entry-content h1 {
   margin-bottom: 10px;
-  font-size:1.5em;
+  font-size:1.6em;
 }
 .entry-content h2 {
   margin-bottom: 8px;
-  font-size:1.3em;
+  font-size:1.4em;
+  font-weight:bold;
 }
 
 /** articles footers */
