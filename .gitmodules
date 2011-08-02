@@ -1,3 +1,3 @@
 [submodule "_layouts"]
 	path = _layouts
-	url = git@github.com:Carpe-Hora/chJekyll_layouts.git
+	url = git://github.com/Carpe-Hora/chJekyll_layouts.git
