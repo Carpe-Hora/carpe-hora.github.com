@@ -146,7 +146,21 @@ button, input, select, textarea {
 /** articles adapter for markdown */
 
 pre {
-    padding: 15px;
-        white-space: pre-wrap;
-            word-wrap: break-word;
+  padding: 15px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.wp_syntax {
+    overflow-x: auto;
+    overflow-y: hidden;
+    width: 100%;
+}
+
+.wp_syntax {
+    background-color: #F9F9F9;
+    border: 1px solid silver;
+    color: #110000;
+    margin: 0 0 1.5em;
+    overflow: auto;
 }
