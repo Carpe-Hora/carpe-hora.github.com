@@ -3,6 +3,7 @@
 */
 .download{
   float :right;
+  right:250px;
 }
 .ribbon {
   font-size:1.2em;
