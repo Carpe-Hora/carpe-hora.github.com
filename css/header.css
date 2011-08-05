@@ -1,6 +1,9 @@
 /*
   header theme.
 */
+.download{
+  float :right;
+}
 .ribbon {
   font-size:1.2em;
   background-color: #a00;
