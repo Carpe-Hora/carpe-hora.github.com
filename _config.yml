@@ -2,3 +2,4 @@ safe: true
 pygments: true
 lsi: true
 markdown: rdiscount
+auto: true
