@@ -29,7 +29,6 @@ button, input, select, textarea {
   text-decoration: underline;
 }
 
-
 /** categories */
 
 #sidebar {
@@ -160,8 +159,8 @@ pre {
   overflow-x: auto;
   overflow-y: hidden;
   width: 95%;
-  background-color: #F9F9F9;
   border: 1px solid silver;
-  color: #110000;
   margin: 0 0 1.5em;
+  background:black;
+  color:white;
 }
